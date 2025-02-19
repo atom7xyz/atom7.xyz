@@ -1,0 +1,41 @@
+.scroll-button {
+  position: absolute;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(68, 71, 90, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: bounce 2s infinite;
+  border: none;
+  --svg-size: 40px;
+}
+
+.scroll-button:hover {
+  background-color: rgba(68, 71, 90, 0.8);
+}
+
+.scroll-arrow {
+  color: var(--gold);
+  font-size: 1.5rem;
+  transform: scaleX(1.5);
+}
+
+.scroll-button svg {
+  width: var(--svg-size);
+  height: var(--svg-size);
+  display: block;
+  fill: var(--dracula-foreground)
+}
+
+/* Hide on small screens */
+@media (max-height: 615px) {
+  .scroll-button {
+    display: none !important;
+  }
+}

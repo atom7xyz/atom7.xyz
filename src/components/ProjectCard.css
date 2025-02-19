@@ -1,0 +1,91 @@
+/* Project card styles */
+.project-card {
+  position: relative;
+  z-index: 2;
+  background-color: var(--dracula-current-line);
+  border-radius: 15px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.80;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-bg {
+  opacity: 0.60;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-overlay {
+  opacity: 0.3;
+}
+
+.project-content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 16px;
+  color: var(--dracula-foreground);
+}
+
+.project-title a {
+  color: var(--dracula-foreground);
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  line-height: 1.6;
+  color: var(--dracula-foreground);
+} 
+
+.languages {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}

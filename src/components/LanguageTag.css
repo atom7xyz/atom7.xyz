@@ -1,0 +1,41 @@
+/* Language tag styles */
+.language-tag {
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Language color classes */
+.java { background-color: #8d5a14; }
+.gradle { background-color: #011a20; }
+.maven { background-color: #9e1328; }
+.kotlin { background-color: #875fcc; }
+.spring-boot { background-color: #4d8a2c; }
+.spring-jpa { background-color: #3d7a28; }
+.redis { background-color: #a82a22; }
+.mariadb { background-color: #00232b; }
+.postgresql { background-color: #1a4a6b; }
+.mysql { background-color: #2c5a7a; }
+.sql { background-color: #b36d00; }
+.oracle { background-color: #c00000; }
+.h2db { background-color: #1a6acc; }
+.spigot { background-color: #cc6f00; }
+.velocity { background-color: #073c5a; }
+.rabbitmq { background-color: #cc5200; }
+.hikaricp { background-color: #1a7acc; }
+.jooq { background-color: #2db06a; }
+.hibernate { background-color: #3a4a4e; }
+.caffeine { background-color: #6a3610; }
+.javascript { background-color: #c6b218; color: #000000; }
+.typescript { background-color: #1f5a9a; }
+.html { background-color: #b23f1c; }
+.css { background-color: #1a3ab0; }
+.rust { background-color: #b2845a; }
+.c { background-color: #3a3a3a; }
+.php { background-color: #5a5a8a; }
+.docker { background-color: #1a7ab0; }
+.python { background-color: #1a4a7a; }
+.django { background-color: #051a10; }
+.protocollib { background-color: #6a1ab0; }

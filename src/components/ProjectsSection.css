@@ -1,0 +1,28 @@
+/* Projects section styles */
+.projects-section {
+  position: relative;
+  background-color: var(--dracula-background);
+  padding: 4rem 2rem;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--dracula-foreground);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  letter-spacing: normal;
+}
+
+.projects {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+} 
