@@ -97,7 +97,7 @@ const ProjectsSection = () => {
       href: 'https://github.com/atom7xyz/FarmPvP',
       languages: ['java', 'spigot', 'protocollib', 'jooq', 'mariadb', 'hikaricp'],
       description: 'FarmPvP minigame, built for the Minecraft Server "MetaMC".',
-      bgColor: '#383630'
+      bgImage: 'https://atom7.xyz/share/u/6mV3adnM.png'
     },
     {
       id: 'project14',

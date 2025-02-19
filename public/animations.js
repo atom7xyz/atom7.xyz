@@ -6,6 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const words = ['atom7', 'anton'];
     let currentWordIndex = 0;
     const title = document.getElementById('changing-title');
+
+    if (!title) {
+        console.error('Element with id "changing-title" not found');
+        return;
+    }
+
     const ANIMATION_DELAY = 200;
     const TRANSITION_DELAY = 3000;
 
