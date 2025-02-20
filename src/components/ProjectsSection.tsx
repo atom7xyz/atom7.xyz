@@ -111,7 +111,7 @@ const ProjectsSection = () => {
       id: 'project15',
       title: 'Violet',
       href: 'https://github.com/AevyDevs/Violet',
-      languages: ['kotlin', 'velocity', 'redis', 'mysql', 'mariadb', 'hikaricp'],
+      languages: ['java', 'velocity', 'redis', 'mysql', 'mariadb', 'hikaricp'],
       description: 'Management and addons for servers using Velocity proxy, built for the Minecraft Server "HerosPvP".',
       bgColor: '#383630'
     },
