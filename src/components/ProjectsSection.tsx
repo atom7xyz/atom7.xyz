@@ -92,6 +92,14 @@ const ProjectsSection = () => {
       bgImage: 'https://atom7.xyz/share/u/ilxgzVyf.png'
     },
     {
+      id: 'project12',
+      title: 'heros-core',
+      href: 'https://github.com/AevyDevs/heros-core',
+      languages: ['java', 'spigot', 'mariadb', 'hikaricp'],
+      description: 'Core library providing essential utilities and APIs for Minecraft server development, including configuration management, command handling, and plugin integration, built for the Minecraft Server "HerosPvP"',
+      bgImage: 'https://atom7.xyz/share/u/ilxgzVyf.png'
+    },
+    {
       id: 'project13',
       title: 'FarmPvP',
       href: 'https://github.com/atom7xyz/FarmPvP',
