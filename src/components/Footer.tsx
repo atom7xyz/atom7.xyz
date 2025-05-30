@@ -38,7 +38,7 @@ export function Footer() {
           <Separator className="w-full max-w-md" />
           
           <div className="text-center text-xs md:text-sm text-muted-foreground">
-            <p>Last update: 26/05/2025</p>
+            <p>Last update: 30/05/2025</p>
           </div>
         </div>
       </div>
