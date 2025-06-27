@@ -29,8 +29,7 @@ const projects = [
     title: "recovery",
     description: "Recovery system designed to assist metamc.it support personnel in verifying users' identities, built for the Minecraft Server \"MetaMC\".",
     technologies: ["Kotlin", "Spring Boot", "Spring JPA", "Spigot", "Velocity", "H2DB", "Gradle"],
-    projectUrl: "https://github.com/atom7xyz/recovery",
-    imageUrl: "https://atom7.xyz/share/u/OWhMk3D4.png"
+    projectUrl: "https://github.com/atom7xyz/recovery"
   },
   {
     title: "Stone",
@@ -69,7 +68,7 @@ const projects = [
     title: "WebProject (ABM)",
     description: "Full-stack web application simulating a fantasy shop, complete with user authentication, product management, and shopping cart functionality.",
     technologies: ["Java", "PostgreSQL", "JavaScript", "HTML", "CSS"],
-    projectUrl: "https://github.com/atom7xyz/WebProject",
+    projectUrl: "https://github.com/MarkTheRealCoder/WebProject",
     imageUrl: "https://atom7.xyz/share/u/mLRG3IhF.png"
   },
   {
