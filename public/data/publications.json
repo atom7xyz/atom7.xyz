@@ -1,0 +1,15 @@
+{
+  "sectionTitle": "Publications",
+  "sectionDescription": "From technical papers to articles, I've written a few things.",
+  "emptyStateMessage": "Publications coming soon...",
+  "publications": [
+    {
+      "title": "antlr-impl: An Interpreter for a subset of the IJVM and 8088 instruction sets",
+      "abstract": "We present antlr-impl, an Interpreter for a subset of the IJVM and 8088 instruction sets. Developed as part of the broader assembly-stdio project, this tool aims to provide a stand-alone educational opportunity to explore low-level execution flow and memory management. It consists of four main components: a Lexer, a Parser, a Semantic Analyzer, and an Interpreter. Built with Java and ANTLR, the system processes assembly instructions from both architectures and simulates their execution, allowing users to observe how different virtual machines and processors handle stack operations, method calls, register management, and memory allocation.",
+      "technologies": ["Java", "ANTLR"],
+      "publicationDate": "16 July 2024",
+      "type": "technical-paper",
+      "downloadUrl": "./publications/antlr-impl.pdf"
+    }
+  ]
+} 

@@ -1,6 +1,7 @@
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { Projects } from './components/Projects'
+import { Publications } from './components/Publications'
 import { Footer } from './components/Footer'
 import { ThemeProvider } from './components/ThemeProvider'
 
@@ -12,6 +13,7 @@ function App() {
         <main>
           <Hero />
           <Projects />
+          <Publications />
         </main>
         <Footer />
       </div>

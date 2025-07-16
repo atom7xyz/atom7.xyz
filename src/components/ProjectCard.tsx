@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
-import { Badge } from './ui/badge'
-import { getTechColor } from '../utils/techColors'
+import { TechnologyBadge } from './common/TechnologyBadge'
+import { ANIMATION_CLASSES } from '../utils/constants'
 
 interface ProjectCardProps {
   title: string
@@ -23,7 +23,7 @@ export function ProjectCard({
 
   return (
     <Card 
-      className="flex flex-col min-h-60 cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden select-none"
+      className={`flex flex-col min-h-60 cursor-pointer ${ANIMATION_CLASSES.HOVER_LIFT} relative overflow-hidden select-none`}
       onClick={handleClick}
     >
       {imageUrl && (
@@ -40,17 +40,16 @@ export function ProjectCard({
           <CardTitle className="text-xl font-semibold text-left">{title}</CardTitle>
           <div className="flex flex-wrap gap-1.5 mt-2">
             {technologies.map((tech) => (
-              <Badge 
+              <TechnologyBadge 
                 key={tech} 
-                className={`text-xs px-3 py-1 font-bold rounded-full ${getTechColor(tech)}`}
-              >
-                {tech}
-              </Badge>
+                technology={tech}
+                size="medium"
+              />
             ))}
           </div>
         </CardHeader>
         <CardContent className="flex-1 pt-0 text-left p-0 mt-3">
-          <CardDescription className="text-muted-foreground leading-relaxed text-left">
+          <CardDescription className="text-muted-foreground text-left">
             {description}
           </CardDescription>
         </CardContent>

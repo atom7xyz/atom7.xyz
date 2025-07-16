@@ -1,66 +1,80 @@
-import { Button } from './ui/button'
-import { Badge } from './ui/badge'
-import { Github, Linkedin, Mail } from 'lucide-react'
-import { getTechColor } from '../utils/techColors'
+import { usePersonalInfo } from '../hooks/useData'
+import { LoadingState } from './common/LoadingState'
+import { SocialButton } from './common/SocialButton'
+import { TechnologyBadge } from './common/TechnologyBadge'
+import { SectionLayout } from './common/SectionLayout'
+import { Skeleton } from './ui/skeleton'
+import { SKELETON_COUNTS, RESPONSIVE_CLASSES } from '../utils/constants'
 
 export function Hero() {
-  const technologies = [
-    'Java', 'Kotlin', 'C', 'TypeScript', 'JavaScript', 'Rust', 'PHP', 'Python', 'HTML', 'CSS', 'SQL',
-    'PostgreSQL', 'MySQL', 'MariaDB', 'H2DB', 'Redis',
-    'Drizzle ORM', 'Hibernate ORM', 'Jooq',
-    'HikariCP', 'Caffeine', 'RabbitMQ',
-    'Spring Boot', 'Spring JPA', 'Django', 'React', 'Tailwind CSS', 'Shadcn UI',
-    'Spigot', 'Velocity', 'ProtocolLib', 'Telegram API',
-    'JUnit', 'ANTLR', 'Lombok',
-    'Git', 'Maven', 'Gradle',
-    'Docker', 'ElectronJS'
-  ]
+  const { data: personalInfo, loading, error } = usePersonalInfo()
+
+  const HeroLoadingSkeleton = () => (
+    <SectionLayout id="about" spacing="hero" maxWidth="narrow">
+      <div className={RESPONSIVE_CLASSES.SPACING.CONTENT_Y}>
+        <Skeleton className="h-12 w-48 mx-auto" />
+        <Skeleton className="h-6 w-96 mx-auto" />
+      </div>
+      <div className="flex flex-wrap gap-2 justify-center px-4">
+        {Array.from({ length: SKELETON_COUNTS.TECHNOLOGY_BADGES }).map((_, i) => (
+          <Skeleton key={i} className="h-6 w-16" />
+        ))}
+      </div>
+      <div className={RESPONSIVE_CLASSES.FLEX.WRAP_CENTER}>
+        {Array.from({ length: SKELETON_COUNTS.SOCIAL_BUTTONS }).map((_, i) => (
+          <Skeleton key={i} className="h-10 w-28" />
+        ))}
+      </div>
+    </SectionLayout>
+  )
 
   return (
-    <section id="about" className="container py-16 md:py-24 lg:py-32 mx-auto select-none px-4">
-      <div className="flex flex-col items-center text-center space-y-6 md:space-y-8 max-w-4xl mx-auto">
-        <div className="space-y-3 md:space-y-4">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-            <span className="text-primary">Anton</span>
-          </h1>
-          <p className="mx-auto max-w-[700px] text-muted-foreground text-base md:text-xl px-4">
-            Java Developer since 2019, Computer Science Major.
-            Interested in building libraries, back-end systems and exploring modern technologies for commercial use.
-          </p>
-        </div>
-        
-        <div className="flex flex-wrap gap-2 justify-center px-4">
-          {technologies.map((tech) => (
-            <Badge 
-              key={tech} 
-              className={`px-2 py-1 sm:px-3 sm:py-1 font-bold rounded-full text-xs ${getTechColor(tech)}`}
-            >
-              {tech}
-            </Badge>
-          ))}
-        </div>
+    <LoadingState 
+      loading={loading} 
+      error={error} 
+      fallback={<HeroLoadingSkeleton />}
+    >
+      {personalInfo && (
+        <SectionLayout id="about" spacing="hero" maxWidth="narrow">
+          <div className={RESPONSIVE_CLASSES.SPACING.CONTENT_Y}>
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+              <span className="text-primary">{personalInfo.name}</span>
+            </h1>
+            <p className={`mx-auto max-w-[700px] text-muted-foreground ${RESPONSIVE_CLASSES.TEXT_SIZES.BODY_LARGE} px-4`}>
+              {personalInfo.title}
+              <br />
+              {personalInfo.description}
+            </p>
+          </div>
+          
+          <div className="flex flex-wrap gap-2 justify-center px-4">
+            {personalInfo.technologies.map((tech) => (
+              <TechnologyBadge key={tech} technology={tech} size="large" />
+            ))}
+          </div>
 
-        <div className="flex gap-4 sm:gap-6 flex-wrap justify-center">
-          <Button variant="outline" size="lg" asChild className="p-3 w-28">
-            <a href="https://github.com/atom7xyz" target="_blank" rel="noopener noreferrer">
-              <Github />
-              GitHub
-            </a>
-          </Button>
-          <Button variant="outline" size="lg" asChild className="p-3 w-28">
-            <a href="https://www.linkedin.com/in/antonio-m-03a65731a" target="_blank" rel="noopener noreferrer">
-              <Linkedin />
-              LinkedIn
-            </a>
-          </Button>
-          <Button variant="outline" size="lg" asChild className="p-3 w-28">
-            <a href="mailto:cubedtop@gmail.com">
-              <Mail />
-              Mail
-            </a>
-          </Button>
-        </div>
-      </div>
-    </section>
+          <div className={RESPONSIVE_CLASSES.FLEX.WRAP_CENTER}>
+            <SocialButton 
+              type="github" 
+              url={personalInfo.socialLinks.github} 
+              size="lg" 
+              className="p-3 w-28" 
+            />
+            <SocialButton 
+              type="linkedin" 
+              url={personalInfo.socialLinks.linkedin} 
+              size="lg" 
+              className="p-3 w-28" 
+            />
+            <SocialButton 
+              type="email" 
+              url={personalInfo.email} 
+              size="lg" 
+              className="p-3 w-28" 
+            />
+          </div>
+        </SectionLayout>
+      )}
+    </LoadingState>
   )
 } 

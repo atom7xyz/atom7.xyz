@@ -1,0 +1,24 @@
+{
+  "menuItems": [
+    {
+      "id": "about",
+      "label": "About",
+      "sectionId": "about"
+    },
+    {
+      "id": "projects", 
+      "label": "Projects",
+      "sectionId": "projects"
+    },
+    {
+      "id": "publications",
+      "label": "Publications", 
+      "sectionId": "publications"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "sectionId": "contact"
+    }
+  ]
+} 

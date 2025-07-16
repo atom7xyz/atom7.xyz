@@ -1,0 +1,23 @@
+{
+  "name": "Anton",
+  "title": "Java Developer since 2019, Computer Science Major.",
+  "description": "Interested in building libraries, back-end systems and exploring modern technologies for commercial use.",
+  "contactDescription": "Open to discussing new projects, technical challenges, or potential collaborations.",
+  "email": "cubedtop@gmail.com",
+  "socialLinks": {
+    "github": "https://github.com/atom7xyz",
+    "linkedin": "https://www.linkedin.com/in/antonio-m-03a65731a"
+  },
+  "technologies": [
+    "Java", "Kotlin", "C", "TypeScript", "JavaScript", "Rust", "PHP", "Python", "HTML", "CSS", "SQL",
+    "PostgreSQL", "MySQL", "MariaDB", "H2DB", "Redis",
+    "Drizzle ORM", "Hibernate ORM", "Jooq",
+    "HikariCP", "Caffeine", "RabbitMQ",
+    "Spring Boot", "Spring JPA", "Django", "React", "Tailwind CSS", "Shadcn UI",
+    "Spigot", "Velocity", "ProtocolLib", "Telegram API",
+    "JUnit", "ANTLR", "Lombok",
+    "Git", "Maven", "Gradle",
+    "Docker", "ElectronJS"
+  ],
+  "lastUpdate": "30/05/2025"
+} 
