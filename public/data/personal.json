@@ -2,7 +2,7 @@
   "name": "Anton",
   "title": "Java Developer since 2019, Computer Science Major.",
   "description": "Interested in building libraries, back-end systems and exploring modern technologies for commercial use.",
-  "contactDescription": "Open to discussing new projects, technical challenges, or potential collaborations.",
+  "contactDescription": "Open to discussing new projects or potential collaborations.",
   "email": "cubedtop@gmail.com",
   "socialLinks": {
     "github": "https://github.com/atom7xyz",
@@ -19,5 +19,5 @@
     "Git", "Maven", "Gradle",
     "Docker", "ElectronJS"
   ],
-  "lastUpdate": "30/05/2025"
+  "lastUpdate": "25/07/2025"
 } 

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import type { PersonalInfo, NavigationData, ProjectsData, PublicationsData } from '../types/data'
+import type { PersonalInfo, NavigationData, ProjectsData, PublicationsData, BooksData } from '../types/data'
 
 function useDataLoader<T>(dataPath: string): { data: T | null; loading: boolean; error: string | null } {
   const [data, setData] = useState<T | null>(null)
@@ -45,4 +45,8 @@ export function useProjectsData() {
 
 export function usePublicationsData() {
   return useDataLoader<PublicationsData>('/data/publications.json')
+}
+
+export function useBooksData() {
+  return useDataLoader<BooksData>('/data/books.json')
 } 

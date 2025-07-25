@@ -15,6 +15,7 @@ export const SKELETON_COUNTS = {
 // Responsive classes for common patterns
 export const RESPONSIVE_CLASSES = {
   GRID_COLS_2: 'grid-cols-1 md:grid-cols-2',
+  GRID_COLS_4: 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
   TEXT_SIZES: {
     HEADING_LARGE: 'text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl',
     HEADING_MEDIUM: 'text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl',

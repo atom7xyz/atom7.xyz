@@ -2,6 +2,8 @@ import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { Projects } from './components/Projects'
 import { Publications } from './components/Publications'
+import { GoodReads } from './components/GoodReads'
+import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { ThemeProvider } from './components/ThemeProvider'
 
@@ -14,6 +16,8 @@ function App() {
           <Hero />
           <Projects />
           <Publications />
+          <GoodReads />
+          <Contact />
         </main>
         <Footer />
       </div>

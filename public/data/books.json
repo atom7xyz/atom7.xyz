@@ -1,0 +1,51 @@
+{
+  "sectionTitle": "Good Reads",
+  "sectionDescription": "Books I've read and found interesting.",
+  "books": [
+    {
+      "title": "Java Memory Management",
+      "authors": ["Maaike Van Putten", "Seán Kennedy"],
+      "coverUrl": "https://atom7.xyz/share/u/apIVslEt.png"
+    },
+    {
+      "title": "Don't Make Me Think",
+      "authors": ["Steve Krug"],
+      "coverUrl": "https://atom7.xyz/share/u/rkqjWviG.png"
+    },
+    {
+      "title": "Spring Start Here",
+      "authors": ["Laurențiu Spilca"],
+      "coverUrl": "https://atom7.xyz/share/u/Mi0rsgGx.png"
+    },
+    {
+      "title": "Operating Systems",
+      "authors": ["Abraham Silberschatz", "Peter B. Galvin", "Greg Gagne"],
+      "coverUrl": "https://atom7.xyz/share/u/cInffHtY.png"
+    },
+    {
+      "title": "Testing Spring Boot Applications Demystified",
+      "authors": ["Philip Riecks"],
+      "coverUrl": "https://atom7.xyz/share/u/J6TDIC2K.png"
+    },
+    {
+      "title": "The Complete Rust Programming Reference Guide",
+      "authors": ["Rahul Sharma", "Vesa Kaihlavirta", "Claus Matzinger"],
+      "coverUrl": "https://atom7.xyz/share/u/daEy9arF.png"
+    },
+    {
+      "title": "Java Notes for Professionals",
+      "authors": ["Goalkicker.com"],
+      "coverUrl": "https://atom7.xyz/share/u/XmkK8N5D.png"
+    },
+    {
+      "title": "Java interview notes",
+      "authors": ["Jolly M."],
+      "coverUrl": "https://atom7.xyz/share/u/kzTFfJOV.png"
+    },
+    {
+      "title": "System Design Interview",
+      "authors": ["Alex Xu"],
+      "coverUrl": "https://atom7.xyz/share/u/0eyI3RZT.png"
+    }
+  ]
+} 

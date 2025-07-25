@@ -51,4 +51,16 @@ export interface PublicationsData {
   sectionDescription: string
   emptyStateMessage: string
   publications: Publication[]
+}
+
+export interface Book {
+  title: string
+  authors: string[]
+  coverUrl: string
+}
+
+export interface BooksData {
+  sectionTitle: string
+  sectionDescription: string
+  books: Book[]
 } 
