@@ -55,7 +55,7 @@
       "title": "Kanboard",
       "description": "Agile project management web app implementing Scrum methodology with Kanban-style task boards and sprint planning features.",
       "technologies": ["Python", "Django", "JavaScript", "HTML", "CSS"],
-      "projectUrl": "https://github.com/MarkTheRealCoder/Kanboard",
+      "projectUrl": "https://github.com/atom7xyz/Kanboard",
       "imageUrl": "https://atom7.xyz/share/u/mEr3PZB9.png"
     },
     {
