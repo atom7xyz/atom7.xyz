@@ -18,7 +18,12 @@
       "coverUrl": "https://atom7.xyz/share/u/Mi0rsgGx.png"
     },
     {
-      "title": "Il Linguaggio C",
+      "title": "Dive Into Refactoring",
+      "authors": ["Alexander Shvets"],
+      "coverUrl": "https://atom7.xyz/share/u/TtjhwAhT.png"
+    },
+    {
+      "title": "The C Programming Language",
       "authors": ["Paul Deitel", "Harvey Deitel"],
       "coverUrl": "https://atom7.xyz/share/u/Xr5f01cp.png"
     },
