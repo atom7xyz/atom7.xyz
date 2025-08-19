@@ -11,7 +11,7 @@
     {
       "title": "sharex-spring",
       "description": "A self-hosted server for ShareX, supporting image uploads, text sharing, file hosting, and URL shortening.",
-      "technologies": ["Kotlin", "Spring Boot", "Spring JPA", "Spring Validation", "Spring Security", "Spring AOP", "PostgreSQL", "Caffeine", "Docker", "Gradle"],
+      "technologies": ["Kotlin", "Spring Boot", "Spring JPA", "Spring Validation", "Spring Security", "Spring AOP", "PostgreSQL", "Caffeine", "Redis", "Docker", "Gradle"],
       "projectUrl": "https://github.com/atom7xyz/sharex-spring"
     },
     {

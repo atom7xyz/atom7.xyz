@@ -23,6 +23,16 @@
       "coverUrl": "https://atom7.xyz/share/u/TtjhwAhT.png"
     },
     {
+      "title": "System Design Interview",
+      "authors": ["Alex Xu"],
+      "coverUrl": "https://atom7.xyz/share/u/0eyI3RZT.png"
+    },
+    {
+      "title": "Think Data Structures",
+      "authors": ["Allen B. Downey"],
+      "coverUrl": "https://atom7.xyz/share/u/2v03ixgZ.png"
+    },
+    {
       "title": "The C Programming Language",
       "authors": ["Paul Deitel", "Harvey Deitel"],
       "coverUrl": "https://atom7.xyz/share/u/Xr5f01cp.png"
@@ -38,11 +48,6 @@
       "coverUrl": "https://atom7.xyz/share/u/J6TDIC2K.png"
     },
     {
-      "title": "The Complete Rust Programming Reference Guide",
-      "authors": ["Rahul Sharma", "Vesa Kaihlavirta", "Claus Matzinger"],
-      "coverUrl": "https://atom7.xyz/share/u/daEy9arF.png"
-    },
-    {
       "title": "Java Notes for Professionals",
       "authors": ["Goalkicker.com"],
       "coverUrl": "https://atom7.xyz/share/u/XmkK8N5D.png"
@@ -53,9 +58,9 @@
       "coverUrl": "https://atom7.xyz/share/u/kzTFfJOV.png"
     },
     {
-      "title": "System Design Interview",
-      "authors": ["Alex Xu"],
-      "coverUrl": "https://atom7.xyz/share/u/0eyI3RZT.png"
+      "title": "The Complete Rust Programming Reference Guide",
+      "authors": ["Rahul Sharma", "Vesa Kaihlavirta", "Claus Matzinger"],
+      "coverUrl": "https://atom7.xyz/share/u/daEy9arF.png"
     }
   ]
 } 
