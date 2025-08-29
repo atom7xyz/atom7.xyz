@@ -18,6 +18,16 @@
       "coverUrl": "https://atom7.xyz/share/u/Mi0rsgGx.png"
     },
     {
+      "title": "Spring in Action",
+      "authors": ["Craig Walls"],
+      "coverUrl": "https://atom7.xyz/share/u/Y2NrO6VO.png"
+    },
+    {
+      "title": "Spring Boot in Action",
+      "authors": ["Craig Walls"],
+      "coverUrl": "https://atom7.xyz/share/u/pltF59vQ.png"
+    },
+    {
       "title": "Dive Into Refactoring",
       "authors": ["Alexander Shvets"],
       "coverUrl": "https://atom7.xyz/share/u/TtjhwAhT.png"
@@ -26,6 +36,21 @@
       "title": "System Design Interview",
       "authors": ["Alex Xu"],
       "coverUrl": "https://atom7.xyz/share/u/0eyI3RZT.png"
+    },
+    {
+      "title": "Redis in Action",
+      "authors": ["Josiah L. Carlson"],
+      "coverUrl": "https://atom7.xyz/share/u/Rlz8Ozj6.png"
+    },
+    {
+      "title": "Enterprise Integration Patterns",
+      "authors": ["Gregor Hohpe", "Bobby Woolf"],
+      "coverUrl": "https://atom7.xyz/share/u/PIQppbz2.png"
+    },
+    {
+      "title": "Dive Into Design Patterns",
+      "authors": ["Alexander Shvets"],
+      "coverUrl": "https://atom7.xyz/share/u/FllDDTwY.png"
     },
     {
       "title": "Think Data Structures",
@@ -43,19 +68,9 @@
       "coverUrl": "https://atom7.xyz/share/u/cInffHtY.png"
     },
     {
-      "title": "Testing Spring Boot Applications Demystified",
-      "authors": ["Philip Riecks"],
-      "coverUrl": "https://atom7.xyz/share/u/J6TDIC2K.png"
-    },
-    {
       "title": "Java Notes for Professionals",
       "authors": ["Goalkicker.com"],
       "coverUrl": "https://atom7.xyz/share/u/XmkK8N5D.png"
-    },
-    {
-      "title": "Java interview notes",
-      "authors": ["Jolly M."],
-      "coverUrl": "https://atom7.xyz/share/u/kzTFfJOV.png"
     },
     {
       "title": "The Complete Rust Programming Reference Guide",
