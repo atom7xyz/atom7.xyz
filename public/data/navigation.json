@@ -6,13 +6,13 @@
       "sectionId": "about"
     },
     {
-      "id": "projects", 
+      "id": "projects",
       "label": "Projects",
       "sectionId": "projects"
     },
     {
       "id": "publications",
-      "label": "Publications", 
+      "label": "Publications",
       "sectionId": "publications"
     },
     {
@@ -21,4 +21,4 @@
       "sectionId": "contact"
     }
   ]
-} 
+}

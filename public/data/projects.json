@@ -11,13 +11,30 @@
     {
       "title": "sharex-spring",
       "description": "A self-hosted server for ShareX, supporting image uploads, text sharing, file hosting, and URL shortening.",
-      "technologies": ["Kotlin", "Spring Boot", "Spring JPA", "Spring Validation", "Spring Security", "Spring AOP", "PostgreSQL", "Caffeine", "Redis", "Docker", "Gradle"],
+      "technologies": [
+        "Kotlin",
+        "Spring Boot",
+        "Spring JPA",
+        "Spring Validation",
+        "Spring Security",
+        "Spring AOP",
+        "PostgreSQL",
+        "Caffeine",
+        "Redis",
+        "Docker",
+        "Gradle"
+      ],
       "projectUrl": "https://github.com/atom7xyz/sharex-spring"
     },
     {
       "title": "ddcocbot",
       "description": "Telegram bot for Clash of Clans.",
-      "technologies": ["TypeScript", "Drizzle ORM", "PostgreSQL", "Telegram API"],
+      "technologies": [
+        "TypeScript",
+        "Drizzle ORM",
+        "PostgreSQL",
+        "Telegram API"
+      ],
       "projectUrl": "https://github.com/atom7xyz/ddcocbot"
     },
     {
@@ -29,13 +46,28 @@
     {
       "title": "recovery",
       "description": "Recovery system designed to assist metamc.it support personnel in verifying users' identities, built for the Minecraft Server \"MetaMC\".",
-      "technologies": ["Kotlin", "Spring Boot", "Spring JPA", "Spigot", "Velocity", "H2DB", "Gradle"],
+      "technologies": [
+        "Kotlin",
+        "Spring Boot",
+        "Spring JPA",
+        "Spigot",
+        "Velocity",
+        "H2DB",
+        "Gradle"
+      ],
       "projectUrl": "https://github.com/atom7xyz/recovery"
     },
     {
       "title": "Stone",
       "description": "A comprehensive library for Spigot and Velocity servers, streamlining plugin development with essential utilities and APIs.",
-      "technologies": ["Java", "Spigot", "Velocity", "Jooq", "RabbitMQ", "Maven"],
+      "technologies": [
+        "Java",
+        "Spigot",
+        "Velocity",
+        "Jooq",
+        "RabbitMQ",
+        "Maven"
+      ],
       "projectUrl": "https://github.com/atom7xyz/Stone"
     },
     {
@@ -43,7 +75,7 @@
       "description": "Human-Computer Interaction project featuring a note-reading Electron application with cloud synchronization and collaborative features.",
       "technologies": ["TypeScript", "JavaScript", "HTML", "CSS", "ElectronJS"],
       "projectUrl": "https://github.com/atom7xyz/cloudnotes",
-      "imageUrl": "https://atom7.xyz/share/u/DPxh6CEm.png"
+      "imageUrl": "https://atom7.xyz/share/u/iDyrtk7i.png"
     },
     {
       "title": "rss-rest-reader",
@@ -56,21 +88,21 @@
       "description": "Agile project management web app implementing Scrum methodology with Kanban-style task boards and sprint planning features.",
       "technologies": ["Python", "Django", "JavaScript", "HTML", "CSS"],
       "projectUrl": "https://github.com/atom7xyz/Kanboard",
-      "imageUrl": "https://atom7.xyz/share/u/mEr3PZB9.png"
+      "imageUrl": "https://atom7.xyz/share/u/WlbaRQyl.png"
     },
     {
       "title": "Frogger",
       "description": "Classic Frogger game implementation in C, featuring multi-threading with shared memory and inter-process communication using pipes.",
       "technologies": ["C"],
       "projectUrl": "https://github.com/MarkTheRealCoder/Frogger",
-      "imageUrl": "https://atom7.xyz/share/u/xNsEcCSw.png"
+      "imageUrl": "https://atom7.xyz/share/u/6bsbQy7j.png"
     },
     {
       "title": "WebProject (ABM)",
       "description": "Full-stack web application simulating a fantasy shop, complete with user authentication, product management, and shopping cart functionality.",
       "technologies": ["Java", "PostgreSQL", "JavaScript", "HTML", "CSS"],
       "projectUrl": "https://github.com/MarkTheRealCoder/WebProject",
-      "imageUrl": "https://atom7.xyz/share/u/mLRG3IhF.png"
+      "imageUrl": "https://atom7.xyz/share/u/0NGLGW3T.png"
     },
     {
       "title": "shaded-libs",
@@ -105,9 +137,17 @@
     {
       "title": "FarmPvP",
       "description": "FarmPvP minigame, built for the Minecraft Server \"MetaMC\".",
-      "technologies": ["Java", "Spigot", "ProtocolLib", "Jooq", "MariaDB", "HikariCP", "Maven"],
+      "technologies": [
+        "Java",
+        "Spigot",
+        "ProtocolLib",
+        "Jooq",
+        "MariaDB",
+        "HikariCP",
+        "Maven"
+      ],
       "projectUrl": "https://github.com/atom7xyz/FarmPvP",
-      "imageUrl": "https://atom7.xyz/share/u/6mV3adnM.png"
+      "imageUrl": "https://atom7.xyz/share/u/5DWdh1ZD.png"
     },
     {
       "title": "Astrea",
@@ -118,7 +158,15 @@
     {
       "title": "Violet",
       "description": "Management and addons for servers using Velocity proxy, built for the Minecraft Server \"HerosPvP\".",
-      "technologies": ["Java", "Velocity", "Redis", "MySQL", "MariaDB", "HikariCP", "Maven"],
+      "technologies": [
+        "Java",
+        "Velocity",
+        "Redis",
+        "MySQL",
+        "MariaDB",
+        "HikariCP",
+        "Maven"
+      ],
       "projectUrl": "https://github.com/AevyDevs/Violet"
     },
     {
@@ -126,7 +174,7 @@
       "description": "Pre-lobby system for HerosPvP with GeoBlocking and bot detection features, built for the Minecraft Server \"HerosPvP\".",
       "technologies": ["Java", "Spigot", "Maven"],
       "projectUrl": "https://github.com/AevyDevs/heros-pre-lobby",
-      "imageUrl": "https://atom7.xyz/share/u/M2zQWurZ.jpg"
+      "imageUrl": "https://atom7.xyz/share/u/3o2FvgRg.jpg"
     },
     {
       "title": "Splitter",
@@ -137,7 +185,14 @@
     {
       "title": "database-lib",
       "description": "Library providing boilerplate code and easy database access, built for the Minecraft Server \"HerosPvP\".",
-      "technologies": ["Java", "HikariCP", "MySQL", "MariaDB", "PostgreSQL", "Maven"],
+      "technologies": [
+        "Java",
+        "HikariCP",
+        "MySQL",
+        "MariaDB",
+        "PostgreSQL",
+        "Maven"
+      ],
       "projectUrl": "https://github.com/AevyDevs/database-lib"
     },
     {
@@ -145,7 +200,7 @@
       "description": "Anti-xray plugin utilizing concurrent raytracing algorithms to dynamically obscure blocks and prevent exploitation in 1.8 Minecraft servers, built for the Minecraft Server \"MetaMC\".",
       "technologies": ["Java", "Spigot", "ProtocolLib", "Maven"],
       "projectUrl": "https://github.com/atom7xyz/Camouflage",
-      "imageUrl": "https://atom7.xyz/share/u/7ZHwftxe.png"
+      "imageUrl": "https://atom7.xyz/share/u/6Pzk0ZSi.png"
     },
     {
       "title": "HerosPvPBot",
@@ -164,7 +219,7 @@
       "description": "Terminal-based password generator with customizable complexity options.",
       "technologies": ["Rust"],
       "projectUrl": "https://github.com/atom7xyz/Pseudo-Random-Password-Generator",
-      "imageUrl": "https://atom7.xyz/share/u/wYNIK3OX.png"
+      "imageUrl": "https://atom7.xyz/share/u/1PEnFbRE.png"
     },
     {
       "title": "arc-backend",
@@ -177,14 +232,14 @@
       "description": "Sumo-style FFA PvP minigame, built for the Minecraft Server \"HerosPvP\".",
       "technologies": ["Java", "Spigot", "Maven"],
       "projectUrl": "https://github.com/AevyDevs/heros-sumo-ffa",
-      "imageUrl": "https://atom7.xyz/share/u/f6t3HFHI.jpg"
+      "imageUrl": "https://atom7.xyz/share/u/xmu0oKyv.jpg"
     },
     {
       "title": "heros-combo-ffa",
       "description": "Combo-style FFA PvP minigame, built for the Minecraft Server \"HerosPvP\".",
       "technologies": ["Java", "Spigot", "Maven"],
       "projectUrl": "https://github.com/AevyDevs/heros-combo-ffa",
-      "imageUrl": "https://atom7.xyz/share/u/sPWUUBWT.jpg"
+      "imageUrl": "https://atom7.xyz/share/u/1GEgj4oj.jpg"
     },
     {
       "title": "heros-base-ffa",
@@ -217,4 +272,4 @@
       "projectUrl": "https://github.com/AevyDevs/heros-antigrief"
     }
   ]
-} 
+}
